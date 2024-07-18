@@ -4,19 +4,19 @@
 This repository contains the implementation of the DCCNV pipeline for copy number variation (CNV) detection in single-cell DNA sequencing data. The pipeline includes data preprocessing, graph analysis, denoising using a diffusion process, contrastive learning, and segmentation using Circular Binary Segmentation (CBS).
 
 ## Project Structure
-DCCNV/
-├── data/
-│ └── A4_readcounts_processed.tsv
-├── src/
-│ ├── data_preprocessing.py
-│ ├── graph_analysis.py
-│ ├── denoising.py
-│ ├── contrastive_learning.py
-│ ├── segmentation.py
-│ └── main.py
-├── README.md
-├── requirements.txt
-├── LICENSE
+DCCNV/<br>
+├── data/ <br>
+│ └── A4_readcounts_processed.tsv<br>
+├── src/<br>
+│ ├── data_preprocessing.py<br>
+│ ├── graph_analysis.py<br>
+│ ├── denoising.py<br>
+│ ├── contrastive_learning.py<br>
+│ ├── segmentation.py<br>
+│ └── main.py<br>
+├── README.md<br>
+├── requirements.txt<br>
+├── LICENSE<br>
 └── .gitignore
 
 
